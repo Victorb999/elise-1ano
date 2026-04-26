@@ -16,6 +16,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "1º Aniversário da Elise - Confirmação de Presença",
   description: "Venha celebrar o primeiro aninho da nossa princesinha!",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

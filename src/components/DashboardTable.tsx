@@ -8,7 +8,8 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
     const [statusFilter, setStatusFilter] = useState<'all' | 'confirmed' | 'pending' | 'declined'>('all');
 
     const filteredGuests = guests.filter(g => {
-        const matchesName = g.name.toLowerCase().includes(filter.toLowerCase());
+        const matchesName = g.name.toLowerCase().includes(filter.toLowerCase()) ||
+            (g.companions && g.companions.some(c => c.toLowerCase().includes(filter.toLowerCase())));
         const matchesStatus =
             statusFilter === 'all' ? true :
                 statusFilter === 'confirmed' ? g.confirmed === true :
@@ -40,8 +41,8 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                             key={s}
                             onClick={() => setStatusFilter(s as any)}
                             className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all ${statusFilter === s
-                                    ? 'bg-gold text-white shadow-md'
-                                    : 'bg-white text-gray-400 border border-gray-100 hover:border-gold-light'
+                                ? 'bg-gold text-white shadow-md'
+                                : 'bg-white text-gray-400 border border-gray-100 hover:border-gold-light'
                                 }`}
                         >
                             {s === 'all' ? 'Todos' : s === 'confirmed' ? '✅' : s === 'pending' ? '⏳' : '❌'}
@@ -55,6 +56,7 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                     <thead>
                         <tr className="bg-gray-50 text-gray-400 text-xs uppercase tracking-widest">
                             <th className="px-6 py-4 font-bold">Convidado</th>
+                            <th className="px-6 py-4 font-bold">Acompanhantes</th>
                             <th className="px-6 py-4 font-bold">Grupo</th>
                             <th className="px-6 py-4 font-bold text-center">Adultos+Crianças</th>
                             <th className="px-6 py-4 font-bold">Status</th>
@@ -68,6 +70,11 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                                 <td className="px-6 py-4">
                                     <div className="font-bold text-gray-800">{g.name}</div>
                                     <div className="text-xs text-gray-400">{g.id}</div>
+                                </td>
+                                <td className="px-6 py-4">
+                                    <div className="text-xs text-gray-600 max-w-[200px] break-words">
+                                        {g.companions && g.companions.length > 0 ? g.companions.join(', ') : <span className="text-gray-300 italic">Nenhum</span>}
+                                    </div>
                                 </td>
                                 <td className="px-6 py-4">
                                     <span className="px-2 py-1 rounded-md bg-gray-100 text-[10px] font-bold text-gray-500 uppercase">

@@ -16,6 +16,8 @@ export default async function Dashboard({
     }
 
     const guests = await getGuests();
+    const totalAdults = guests.reduce((acc: number, g) => acc + 1 + g.companionCount, 0);
+    const totalChildren = guests.reduce((acc: number, g) => acc + g.childrenCount, 0);
 
     return (
         <div className="min-h-screen bg-gray-50 py-10 px-4 md:px-10">
@@ -25,8 +27,13 @@ export default async function Dashboard({
                         <h1 className="text-4xl font-serif gold-text">Painel de Convidados</h1>
                         <p className="text-gray-500">Controle de confirmações e acessos</p>
                     </div>
-                    <div className="px-6 py-2 bg-white rounded-full shadow-sm border border-gray-100 text-sm font-bold text-gray-500">
-                        Total na Lista: {guests.length} Convites
+                    <div className="flex flex-wrap justify-center gap-3">
+                        <div className="px-6 py-2 bg-white rounded-full shadow-sm border border-gray-100 text-sm font-bold text-gray-500">
+                            Lista Total: {totalAdults}👤 + {totalChildren}👶
+                        </div>
+                        <div className="px-6 py-2 bg-white rounded-full shadow-sm border border-gray-100 text-sm font-bold text-gray-400 italic">
+                            ({guests.length} Convites)
+                        </div>
                     </div>
                 </header>
 

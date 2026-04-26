@@ -68,6 +68,22 @@
     "message": ""
   },
   {
+    "id": "flavio-4",
+    "name": "Flávio",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Rubia"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
     "id": "lucio-4",
     "name": "Lúcio",
     "group": "Família Mãe",
@@ -195,6 +211,24 @@
     "message": ""
   },
   {
+    "id": "sidney-11",
+    "name": "Sidney",
+    "group": "Família Mãe",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [
+      "Rose",
+      "Christopher",
+      "Chrystiano"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
     "id": "matheus-12",
     "name": "Matheus",
     "group": "Família Mãe",
@@ -310,7 +344,7 @@
       "Vanessa",
       "Kauan",
       "Alice",
-      "Nicole"
+      "Nicolly"
     ],
     "confirmed": null,
     "confirmedAt": null,
