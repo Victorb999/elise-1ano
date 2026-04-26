@@ -1,0 +1,390 @@
+[
+    {
+        "NOME": "Edina",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 2,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Sérgio",
+            "João"
+        ]
+    },
+    {
+        "NOME": "Lúcia",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 2,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Luiz",
+            "Terezinha"
+        ]
+    },
+    {
+        "NOME": "Ângela",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 3,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 4,
+        "ACOMPANHANTES": [
+            "Guilherme",
+            "Murilo",
+            "Elias"
+        ]
+    },
+    {
+        "NOME": "Adriana",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Gilberto"
+        ]
+    },
+    {
+        "NOME": "Lúcio",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Luzia"
+        ]
+    },
+    {
+        "NOME": "Fernando",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "NÃO",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": []
+    },
+    {
+        "NOME": "Letícia",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Yuri"
+        ]
+    },
+    {
+        "NOME": "Jéssica",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 3,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 4,
+        "ACOMPANHANTES": [
+            "Teia",
+            "Rebecca",
+            "Davi"
+        ]
+    },
+    {
+        "NOME": "Silvana",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": [
+            "Rato"
+        ]
+    },
+    {
+        "NOME": "Rhuan",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Sara"
+        ]
+    },
+    {
+        "NOME": "Graziele",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 1,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Guilherme",
+            "Isadora"
+        ]
+    },
+    {
+        "NOME": "Sidneia",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "NÃO",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": []
+    },
+    {
+        "NOME": "Matheus",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 1,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Bianca",
+            "Lucca"
+        ]
+    },
+    {
+        "NOME": "Cláudia",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 2,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Marco",
+            "Ryan"
+        ]
+    },
+    {
+        "NOME": "Carla",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 3,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 4,
+        "ACOMPANHANTES": [
+            "Rafael",
+            "Maria",
+            "Reginaldo"
+        ]
+    },
+    {
+        "NOME": "Andrea",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 4,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 5,
+        "ACOMPANHANTES": [
+            "Carlo",
+            "Thiago",
+            "Mayara",
+            "Matheus"
+        ]
+    },
+    {
+        "NOME": "Marcus",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 2,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Fernanda",
+            "Téo",
+            "Maria"
+        ]
+    },
+    {
+        "NOME": "Lucas",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Yuri"
+        ]
+    },
+    {
+        "NOME": "Marlon",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 3,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 4,
+        "ACOMPANHANTES": [
+            "Vanessa",
+            "Kauan",
+            "Alice",
+            "Nicole"
+        ]
+    },
+    {
+        "NOME": "Marcelo",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Leila"
+        ]
+    },
+    {
+        "NOME": "Ingrid",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Junior"
+        ]
+    },
+    {
+        "NOME": "Jacira",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Antônio"
+        ]
+    },
+    {
+        "NOME": "Mauricio",
+        "GRUPO": "Família Pai",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 3,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Junia",
+            "Thales",
+            "Calebe"
+        ]
+    },
+    {
+        "NOME": "Rankuro",
+        "GRUPO": "Amigos em comum ",
+        "ACOMPANHANTE": "NÃO",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": []
+    },
+    {
+        "NOME": "Janaína",
+        "GRUPO": "Amigos em comum ",
+        "ACOMPANHANTE": "NÃO",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": []
+    },
+    {
+        "NOME": "Vitor",
+        "GRUPO": "Amigos em comum ",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Beatriz"
+        ]
+    },
+    {
+        "NOME": "Soninha",
+        "GRUPO": "Amigos em comum ",
+        "ACOMPANHANTE": "NÃO",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": []
+    },
+    {
+        "NOME": "Amanda",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 2,
+        "QT DE ACOMPANHANTES": 2,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Guilherme",
+            "Marcos",
+            "Samuel",
+            "Noah"
+        ]
+    },
+    {
+        "NOME": "Ricardo",
+        "GRUPO": "Amigos em comum ",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 1,
+        "QT DE ACOMPANHANTES": 1,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 2,
+        "ACOMPANHANTES": [
+            "Sabrina",
+            "Eduardo"
+        ]
+    },
+    {
+        "NOME": "Paulina",
+        "GRUPO": "Amiga Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 1,
+        "QT DE ACOMPANHANTES": 0,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 1,
+        "ACOMPANHANTES": [
+            "Wladimir"
+        ]
+    },
+    {
+        "NOME": "Bruna",
+        "GRUPO": "Família Mãe",
+        "ACOMPANHANTE": "SIM",
+        "CRIANÇAS": 0,
+        "QT DE ACOMPANHANTES": 2,
+        "PRESENÇA CONFIRMADA": "",
+        "TOTAL": 3,
+        "ACOMPANHANTES": [
+            "Ana",
+            "Ana"
+        ]
+    }
+]

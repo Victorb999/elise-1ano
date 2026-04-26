@@ -1,0 +1,514 @@
+[
+  {
+    "id": "edina-0",
+    "name": "Edina",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 2,
+    "companions": [
+      "Sérgio",
+      "João"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "lucia-1",
+    "name": "Lúcia",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 2,
+    "companions": [
+      "Luiz",
+      "Terezinha"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "angela-2",
+    "name": "Ângela",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 3,
+    "companions": [
+      "Guilherme",
+      "Murilo",
+      "Elias"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "adriana-3",
+    "name": "Adriana",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Gilberto"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "lucio-4",
+    "name": "Lúcio",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Luzia"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "fernando-5",
+    "name": "Fernando",
+    "group": "Família Mãe",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "leticia-6",
+    "name": "Letícia",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Yuri"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "jessica-7",
+    "name": "Jéssica",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 3,
+    "companions": [
+      "Teia",
+      "Rebecca",
+      "Davi"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "silvana-8",
+    "name": "Silvana",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Rato"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "rhuan-9",
+    "name": "Rhuan",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Sara"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "graziele-10",
+    "name": "Graziele",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 1,
+    "companionCount": 1,
+    "companions": [
+      "Guilherme",
+      "Isadora"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "sidneia-11",
+    "name": "Sidneia",
+    "group": "Família Mãe",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "matheus-12",
+    "name": "Matheus",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 1,
+    "companionCount": 1,
+    "companions": [
+      "Bianca",
+      "Lucca"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "claudia-13",
+    "name": "Cláudia",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 2,
+    "companions": [
+      "Marco",
+      "Ryan"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "carla-14",
+    "name": "Carla",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 3,
+    "companions": [
+      "Rafael",
+      "Maria",
+      "Reginaldo"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "andrea-15",
+    "name": "Andrea",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 4,
+    "companions": [
+      "Carlo",
+      "Thiago",
+      "Mayara",
+      "Matheus"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "marcus-16",
+    "name": "Marcus",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 2,
+    "companionCount": 1,
+    "companions": [
+      "Fernanda",
+      "Téo",
+      "Maria"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "lucas-17",
+    "name": "Lucas",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Yuri"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "marlon-18",
+    "name": "Marlon",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 4,
+    "companions": [
+      "Vanessa",
+      "Kauan",
+      "Alice",
+      "Nicole"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "marcelo-19",
+    "name": "Marcelo",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Leila"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "ingrid-20",
+    "name": "Ingrid",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Junior"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "jacira-21",
+    "name": "Jacira",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Antônio"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "mauricio-22",
+    "name": "Mauricio",
+    "group": "Família Pai",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 3,
+    "companions": [
+      "Junia",
+      "Thales",
+      "Calebe"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "rankuro-23",
+    "name": "Rankuro (Rafael)",
+    "group": "Amigo",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "janaina-24",
+    "name": "Janaína",
+    "group": "Amigo",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "vitor-25",
+    "name": "Vitor",
+    "group": "Amigo",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Beatriz"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "soninha-26",
+    "name": "Sônia",
+    "group": "Amigo",
+    "hasCompanions": false,
+    "childrenCount": 0,
+    "companionCount": 0,
+    "companions": [],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "amanda-27",
+    "name": "Amanda",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 2,
+    "companionCount": 2,
+    "companions": [
+      "Guilherme",
+      "Marcos",
+      "Samuel",
+      "Noah"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "ricardo-28",
+    "name": "Ricardo",
+    "group": "Amigo",
+    "hasCompanions": true,
+    "childrenCount": 1,
+    "companionCount": 1,
+    "companions": [
+      "Sabrina",
+      "Eduardo"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "paulina-29",
+    "name": "Paulina",
+    "group": "Amiga",
+    "hasCompanions": true,
+    "childrenCount": 1,
+    "companionCount": 0,
+    "companions": [
+      "Wladimir"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "bruna-30",
+    "name": "Bruna",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 2,
+    "companions": [
+      "Ana",
+      "Ana"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  }
+]
