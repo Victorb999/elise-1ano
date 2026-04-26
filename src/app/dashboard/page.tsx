@@ -6,7 +6,7 @@ import LoginForm from '@/components/LoginForm';
 export default async function Dashboard({
     searchParams,
 }: {
-    searchParams: { pw?: string };
+    searchParams: Promise<{ pw?: string }>;
 }) {
     const pw = (await searchParams).pw;
     const correctPw = process.env.DASHBOARD_PASSWORD || 'elise1ano'; // fallback pra dev

@@ -3,9 +3,9 @@ import { updateGuest } from '@/lib/kv';
 
 export async function PUT(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
-    const { id } = await params;
+    const { id } = await context.params;
     const body = await request.json();
 
     try {

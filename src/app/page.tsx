@@ -6,7 +6,7 @@ import GuestFormWrapper from '@/components/GuestFormWrapper';
 export default async function Home({
   searchParams,
 }: {
-  searchParams: { id?: string };
+  searchParams: Promise<{ id?: string }>;
 }) {
   const guests = await getGuests();
   const guestId = (await searchParams).id;
