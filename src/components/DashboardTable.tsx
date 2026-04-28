@@ -57,6 +57,29 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
         }
     };
 
+    const handleConfirmCompanions = async (guest: Guest) => {
+        if (!confirm(`Confirmar todos os acompanhantes de ${guest.name}?`)) return;
+
+        try {
+            const res = await fetch(`/api/guests/${guest.id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    confirmedCompanions: guest.companions,
+                    confirmed: guest.confirmed === null ? true : guest.confirmed,
+                    confirmedAt: guest.confirmedAt || new Date().toISOString()
+                }),
+            });
+            if (res.ok) {
+                router.refresh();
+            } else {
+                alert('Erro ao confirmar acompanhantes.');
+            }
+        } catch (err) {
+            alert('Erro de conexão.');
+        }
+    };
+
     return (
         <div className="flex flex-col h-full">
             <div className="p-6 border-b border-gray-100 flex flex-col md:flex-row gap-4 justify-between bg-gray-50/50">
@@ -139,6 +162,18 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                                                 {g.confirmedCompanions.join(', ')}
                                             </div>
                                         </>
+                                    )}
+                                    {g.companions && g.companions.length > (g.confirmedCompanions?.length || 0) && (
+                                        <button
+                                            onClick={() => handleConfirmCompanions(g)}
+                                            className="mt-2 text-[10px] bg-green-50 text-green-600 px-2 py-1 rounded font-bold hover:bg-green-100 transition-colors flex items-center gap-1"
+                                            title="Confirmar todos os acompanhantes"
+                                        >
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                            </svg>
+                                            Confirmar Todos
+                                        </button>
                                     )}
                                 </td>
                                 <td className="px-6 py-4">

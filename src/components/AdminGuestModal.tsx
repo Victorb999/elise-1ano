@@ -200,26 +200,63 @@ export default function AdminGuestModal({ guest, isOpen, onClose, onSuccess }: P
                         </div>
 
                         <div className="space-y-3">
-                            {formData.companions?.map((companion, index) => (
-                                <div key={index} className="flex gap-2 animate-in slide-in-from-right-4 duration-200">
-                                    <input
-                                        type="text"
-                                        value={companion}
-                                        onChange={(e) => handleCompanionChange(index, e.target.value)}
-                                        className="flex-1 px-4 py-2 rounded-xl border border-gray-200 focus:border-gold outline-none transition-all"
-                                        placeholder={`Acompanhante ${index + 1}`}
-                                    />
+                            {formData.companions?.map((companion, index) => {
+                                const isConfirmed = formData.confirmedCompanions?.includes(companion);
+                                return (
+                                    <div key={index} className="flex gap-2 items-center animate-in slide-in-from-right-4 duration-200">
+                                        {guest && companion && (
+                                            <input
+                                                type="checkbox"
+                                                checked={isConfirmed}
+                                                onChange={(e) => {
+                                                    const newConfirmed = e.target.checked
+                                                        ? [...(formData.confirmedCompanions || []), companion]
+                                                        : (formData.confirmedCompanions || []).filter(c => c !== companion);
+                                                    setFormData({ ...formData, confirmedCompanions: newConfirmed });
+                                                }}
+                                                className="w-5 h-5 rounded border-gray-300 text-gold focus:ring-gold"
+                                                title="Confirmar este acompanhante"
+                                            />
+                                        )}
+                                        <input
+                                            type="text"
+                                            value={companion}
+                                            onChange={(e) => handleCompanionChange(index, e.target.value)}
+                                            className="flex-1 px-4 py-2 rounded-xl border border-gray-200 focus:border-gold outline-none transition-all"
+                                            placeholder={`Acompanhante ${index + 1}`}
+                                        />
+                                        <button
+                                            type="button"
+                                            onClick={() => removeCompanionField(index)}
+                                            className="p-2 text-red-400 hover:text-red-600 transition-colors"
+                                        >
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                );
+                            })}
+
+                            {guest && formData.companions && formData.companions.length > 0 && (
+                                <div className="flex justify-start gap-2 mt-2">
                                     <button
                                         type="button"
-                                        onClick={() => removeCompanionField(index)}
-                                        className="p-2 text-red-400 hover:text-red-600 transition-colors"
+                                        onClick={() => setFormData({ ...formData, confirmedCompanions: [...(formData.companions || [])] })}
+                                        className="text-[10px] uppercase font-bold text-green-600 bg-green-50 px-2 py-1 rounded hover:bg-green-100 transition-colors"
                                     >
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                        </svg>
+                                        ✅ Confirmar Todos
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setFormData({ ...formData, confirmedCompanions: [] })}
+                                        className="text-[10px] uppercase font-bold text-red-500 bg-red-50 px-2 py-1 rounded hover:bg-red-100 transition-colors"
+                                    >
+                                        ⭕ Limpar Confirmados
                                     </button>
                                 </div>
-                            ))}
+                            )}
+
                             {(!formData.companions || formData.companions.length === 0) && (
                                 <p className="text-sm text-gray-400 italic text-center py-4 bg-gray-50 rounded-xl">
                                     Nenhum acompanhante cadastrado.
