@@ -40,6 +40,36 @@ export async function updateGuest(id: string, updates: Partial<Guest>): Promise<
     return updatedGuest;
 }
 
+export async function createGuest(guest: Guest): Promise<Guest> {
+    const guests = await getGuests();
+    guests.push(guest);
+
+    try {
+        await kv.set(GUESTS_KEY, guests);
+    } catch (e) {
+        console.warn('Could not save to KV');
+    }
+
+    return guest;
+}
+
+export async function deleteGuest(id: string): Promise<boolean> {
+    const guests = await getGuests();
+    const index = guests.findIndex(g => g.id === id);
+
+    if (index === -1) return false;
+
+    guests.splice(index, 1);
+
+    try {
+        await kv.set(GUESTS_KEY, guests);
+        return true;
+    } catch (e) {
+        console.warn('Could not save to KV');
+        return false;
+    }
+}
+
 export async function resetGuests(): Promise<void> {
     try {
         await kv.set(GUESTS_KEY, guestsJson);

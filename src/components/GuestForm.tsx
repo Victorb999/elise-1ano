@@ -33,7 +33,8 @@ export default function GuestForm({ guest, onSuccess }: Props) {
                     confirmed,
                     confirmedCompanions: selectedCompanions,
                     message,
-                    totalConfirmed: (confirmed ? 1 : 0) + selectedCompanions.length
+                    totalConfirmed: (confirmed ? 1 : 0) + selectedCompanions.length,
+                    confirmedAt: new Date().toISOString()
                 }),
             });
 
