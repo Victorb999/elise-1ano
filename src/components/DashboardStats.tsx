@@ -1,11 +1,11 @@
 import { Guest } from '@/lib/types';
 
 export default function DashboardStats({ guests }: { guests: Guest[] }) {
-    const confirmed = guests.filter(g => g.confirmed === true);
+    const confirmed = guests.filter(g => g.confirmed === true || (g.confirmedCompanions && g.confirmedCompanions.length > 0));
     const pending = guests.filter(g => g.confirmed === null);
-    const declined = guests.filter(g => g.confirmed === false);
+    const declined = guests.filter(g => g.confirmed === false && (!g.confirmedCompanions || g.confirmedCompanions.length === 0));
 
-    const totalConfirmedAdults = confirmed.reduce((acc: number, g) => acc + 1 + (g.confirmedCompanions?.length || 0), 0);
+    const totalConfirmedAdults = guests.reduce((acc: number, g) => acc + (g.confirmed === true ? 1 : 0) + (g.confirmedCompanions?.length || 0), 0);
     const totalConfirmedChildren = confirmed.reduce((acc: number, g) => acc + (g.childrenCount || 0), 0);
 
     const stats = [

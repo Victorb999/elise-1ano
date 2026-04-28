@@ -45,11 +45,15 @@
       "Murilo",
       "Elias"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T00:15:48.950Z",
+    "confirmedCompanions": [
+      "Guilherme",
+      "Murilo",
+      "Elias"
+    ],
+    "totalConfirmed": 4,
+    "message": "Minha família ama essa bonequinha. "
   },
   {
     "id": "adriana-3",
@@ -68,22 +72,6 @@
     "message": ""
   },
   {
-    "id": "flavio-4",
-    "name": "Flávio",
-    "group": "Família Mãe",
-    "hasCompanions": true,
-    "childrenCount": 0,
-    "companionCount": 1,
-    "companions": [
-      "Rubia"
-    ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
-  },
-  {
     "id": "lucio-4",
     "name": "Lúcio",
     "group": "Família Mãe",
@@ -92,6 +80,22 @@
     "companionCount": 1,
     "companions": [
       "Luzia"
+    ],
+    "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "flavio-31",
+    "name": "Flávio",
+    "group": "Família Mãe",
+    "hasCompanions": true,
+    "childrenCount": 0,
+    "companionCount": 1,
+    "companions": [
+      "Rubia"
     ],
     "confirmed": null,
     "confirmedAt": null,
@@ -123,10 +127,12 @@
     "companions": [
       "Yuri"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T00:22:25.000Z",
+    "confirmedCompanions": [
+      "Yuri"
+    ],
+    "totalConfirmed": 2,
     "message": ""
   },
   {
@@ -155,7 +161,7 @@
     "childrenCount": 0,
     "companionCount": 1,
     "companions": [
-      "Rato"
+      "Jesus"
     ],
     "confirmed": null,
     "confirmedAt": null,
@@ -185,10 +191,11 @@
     "group": "Família Mãe",
     "hasCompanions": true,
     "childrenCount": 1,
-    "companionCount": 1,
+    "companionCount": 2,
     "companions": [
       "Guilherme",
-      "Isadora"
+      "Isadora",
+      "Israel"
     ],
     "confirmed": null,
     "confirmedAt": null,
@@ -202,8 +209,10 @@
     "group": "Família Mãe",
     "hasCompanions": false,
     "childrenCount": 0,
-    "companionCount": 0,
-    "companions": [],
+    "companionCount": 1,
+    "companions": [
+      "Bruno"
+    ],
     "confirmed": null,
     "confirmedAt": null,
     "confirmedCompanions": [],
@@ -211,7 +220,7 @@
     "message": ""
   },
   {
-    "id": "sidney-11",
+    "id": "sidney-32",
     "name": "Sidney",
     "group": "Família Mãe",
     "hasCompanions": false,
@@ -219,7 +228,7 @@
     "companionCount": 0,
     "companions": [
       "Rose",
-      "Christopher",
+      "Chrystopher",
       "Chrystiano"
     ],
     "confirmed": null,
@@ -282,7 +291,7 @@
   },
   {
     "id": "andrea-15",
-    "name": "Andrea",
+    "name": "Andréia",
     "group": "Família Pai",
     "hasCompanions": true,
     "childrenCount": 0,
@@ -293,10 +302,15 @@
       "Mayara",
       "Matheus"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T00:24:00.021Z",
+    "confirmedCompanions": [
+      "Carlo",
+      "Thiago",
+      "Mayara",
+      "Matheus"
+    ],
+    "totalConfirmed": 5,
     "message": ""
   },
   {
@@ -394,15 +408,17 @@
     "companions": [
       "Antônio"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-04-26T12:04:37.835Z",
+    "confirmedCompanions": [
+      "Antônio"
+    ],
+    "totalConfirmed": 2,
     "message": ""
   },
   {
     "id": "mauricio-22",
-    "name": "Mauricio",
+    "name": "Maurício",
     "group": "Família Pai",
     "hasCompanions": true,
     "childrenCount": 0,

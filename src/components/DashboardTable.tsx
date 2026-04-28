@@ -12,9 +12,9 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
             (g.companions && g.companions.some(c => c.toLowerCase().includes(filter.toLowerCase())));
         const matchesStatus =
             statusFilter === 'all' ? true :
-                statusFilter === 'confirmed' ? g.confirmed === true :
+                statusFilter === 'confirmed' ? (g.confirmed === true || (g.confirmedCompanions && g.confirmedCompanions.length > 0)) :
                     statusFilter === 'pending' ? g.confirmed === null :
-                        g.confirmed === false;
+                        g.confirmed === false && (!g.confirmedCompanions || g.confirmedCompanions.length === 0);
 
         return matchesName && matchesStatus;
     });
@@ -87,8 +87,8 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                                     </div>
                                 </td>
                                 <td className="px-6 py-4">
-                                    {g.confirmed === true ? (
-                                        <span className="text-green-600 font-bold text-sm">✅ Confirmado</span>
+                                    {g.confirmed === true || (g.confirmedCompanions && g.confirmedCompanions.length > 0) ? (
+                                        <span className="text-green-600 font-bold text-sm">✅ {g.confirmed === false ? 'Acompanhante(s)' : 'Confirmado'}</span>
                                     ) : g.confirmed === false ? (
                                         <span className="text-red-500 font-bold text-sm">❌ Recusou</span>
                                     ) : (

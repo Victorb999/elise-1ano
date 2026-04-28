@@ -31,9 +31,9 @@ export default function GuestForm({ guest, onSuccess }: Props) {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     confirmed,
-                    confirmedCompanions: confirmed ? selectedCompanions : [],
+                    confirmedCompanions: selectedCompanions,
                     message,
-                    totalConfirmed: confirmed ? 1 + selectedCompanions.length : 0
+                    totalConfirmed: (confirmed ? 1 : 0) + selectedCompanions.length
                 }),
             });
 
@@ -73,8 +73,8 @@ export default function GuestForm({ guest, onSuccess }: Props) {
                         type="button"
                         onClick={() => setConfirmed(true)}
                         className={`flex-1 py-4 px-6 rounded-2xl font-bold transition-all border-2 ${confirmed === true
-                                ? 'bg-primary-500 text-white border-primary-500 shadow-lg scale-105'
-                                : 'bg-white text-gray-500 border-gray-100 hover:border-primary-200'
+                            ? 'bg-primary-500 text-white border-primary-500 shadow-lg scale-105'
+                            : 'bg-white text-gray-500 border-gray-100 hover:border-primary-200'
                             }`}
                     >
                         ✅ Sim, eu vou!
@@ -83,18 +83,18 @@ export default function GuestForm({ guest, onSuccess }: Props) {
                         type="button"
                         onClick={() => setConfirmed(false)}
                         className={`flex-1 py-4 px-6 rounded-2xl font-bold transition-all border-2 ${confirmed === false
-                                ? 'bg-gray-700 text-white border-gray-700 shadow-lg scale-105'
-                                : 'bg-white text-gray-500 border-gray-100 hover:border-gray-200'
+                            ? 'bg-gray-700 text-white border-gray-700 shadow-lg scale-105'
+                            : 'bg-white text-gray-500 border-gray-100 hover:border-gray-200'
                             }`}
                     >
                         ❌ Não poderei ir
                     </button>
                 </div>
 
-                {confirmed === true && guest.companions.length > 0 && (
+                {guest.companions.length > 0 && (
                     <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
                         <h3 className="font-bold text-gray-800 text-lg">Acompanhantes liberados:</h3>
-                        <p className="text-sm text-gray-500 italic">Selecione quem irá com você:</p>
+                        <p className="text-sm text-gray-500 italic">Selecione quem irá:</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             {guest.companions.map((comp) => (
                                 <button
@@ -102,8 +102,8 @@ export default function GuestForm({ guest, onSuccess }: Props) {
                                     type="button"
                                     onClick={() => toggleCompanion(comp)}
                                     className={`text-left p-4 rounded-xl border-2 transition-all flex justify-between items-center ${selectedCompanions.includes(comp)
-                                            ? 'border-gold bg-primary-50 text-gold-dark'
-                                            : 'border-gray-100 text-gray-600'
+                                        ? 'border-gold bg-primary-50 text-gold-dark'
+                                        : 'border-gray-100 text-gray-600'
                                         }`}
                                 >
                                     <span className="font-medium">{comp}</span>
