@@ -4,12 +4,14 @@ import { Guest } from '@/lib/types';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import AdminGuestModal from './AdminGuestModal';
+import MessageModal from './MessageModal';
 
 export default function DashboardTable({ guests }: { guests: Guest[] }) {
     const router = useRouter();
     const [filter, setFilter] = useState('');
     const [statusFilter, setStatusFilter] = useState<'all' | 'confirmed' | 'pending' | 'declined'>('all');
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isMessageModalOpen, setIsMessageModalOpen] = useState(false);
     const [selectedGuest, setSelectedGuest] = useState<Guest | undefined>(undefined);
 
     const filteredGuests = guests.filter(g => {
@@ -109,7 +111,20 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                         {filteredGuests.map((g) => (
                             <tr key={g.id} className="hover:bg-primary-50/30 transition-colors group">
                                 <td className="px-6 py-4">
-                                    <div className="font-bold text-gray-800">{g.name}</div>
+                                    <div className="flex items-center gap-2">
+                                        <div className="font-bold text-gray-800">{g.name}</div>
+                                        {g.message && (
+                                            <button
+                                                onClick={() => { setSelectedGuest(g); setIsMessageModalOpen(true); }}
+                                                className="p-1 bg-amber-100 text-amber-600 rounded-md hover:bg-amber-200 transition-colors"
+                                                title="Ver mensagem"
+                                            >
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
+                                                </svg>
+                                            </button>
+                                        )}
+                                    </div>
                                     <div className="text-xs text-gray-400">{g.id}</div>
                                 </td>
                                 <td className="px-6 py-4">
@@ -152,6 +167,17 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                                 </td>
                                 <td className="px-6 py-4">
                                     <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        {g.message && (
+                                            <button
+                                                onClick={() => { setSelectedGuest(g); setIsMessageModalOpen(true); }}
+                                                className="p-2 text-amber-500 hover:bg-amber-500 hover:text-white rounded-lg transition-all"
+                                                title="Ver Mensagem"
+                                            >
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                                                </svg>
+                                            </button>
+                                        )}
                                         <button
                                             onClick={() => copyLink(g.id)}
                                             className="p-2 text-gold hover:bg-gold hover:text-white rounded-lg transition-all"
@@ -197,6 +223,13 @@ export default function DashboardTable({ guests }: { guests: Guest[] }) {
                 guest={selectedGuest}
                 onClose={() => setIsModalOpen(false)}
                 onSuccess={() => router.refresh()}
+            />
+
+            <MessageModal
+                isOpen={isMessageModalOpen}
+                guestName={selectedGuest?.name || ''}
+                message={selectedGuest?.message || ''}
+                onClose={() => setIsMessageModalOpen(false)}
             />
         </div>
     );
