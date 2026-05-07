@@ -10,11 +10,14 @@
       "Sérgio",
       "João"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T17:26:26.941Z",
+    "confirmedCompanions": [
+      "Sérgio",
+      "João"
+    ],
+    "totalConfirmed": 1,
+    "message": "Parabéns  princesa!vc é  o melhor acontecimento  ,que veio para nós consolar pela partida do meu pai!! Vc é  muito amada!!"
   },
   {
     "id": "lucia-1",
@@ -27,11 +30,14 @@
       "Luiz",
       "Terezinha"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-30T00:50:01.683Z",
+    "confirmedCompanions": [
+      "Luiz",
+      "Terezinha"
+    ],
+    "totalConfirmed": 3,
+    "message": "Minha princesa , que Deus te abençoe grandemente,que vc continue sendo essa menina iluminada por Deus, gratidão a Deus por sua vida ,te amo muito muito "
   },
   {
     "id": "angela-2",
@@ -65,11 +71,13 @@
     "companions": [
       "Gilberto"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-05-06T09:58:05.644Z",
+    "confirmedCompanions": [
+      "Gilberto"
+    ],
+    "totalConfirmed": 1,
+    "message": "Elise vc deixou a nossa família mais alegre e perfumada, com sua presença!!! 👏👏👏👏"
   },
   {
     "id": "lucio-4",
@@ -81,10 +89,12 @@
     "companions": [
       "Luzia"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-05T01:17:00.748Z",
+    "confirmedCompanions": [
+      "Luzia"
+    ],
+    "totalConfirmed": 2,
     "message": ""
   },
   {
@@ -97,10 +107,10 @@
     "companions": [
       "Rubia"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-05-06T00:05:15.560Z",
     "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -111,10 +121,10 @@
     "childrenCount": 0,
     "companionCount": 0,
     "companions": [],
-    "confirmed": null,
-    "confirmedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-05-02T00:52:22.606Z",
     "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -147,11 +157,15 @@
       "Rebecca",
       "Davi"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T16:17:58.298Z",
+    "confirmedCompanions": [
+      "Teia",
+      "Rebecca",
+      "Davi"
+    ],
+    "totalConfirmed": 4,
+    "message": "Minha princesinha Elise desde que descobrimos sua chegada você foi muito amada, ja sabíamos que você chegaria pra trazer mais amor a união do papai e da mamãe e claro de todos nós seus familiares. Quero pedir que papai do céu continue te protegendo e te guiando sempre minha pequena. Tia Jéssica te amaaaaaaaa muitooooooooo e estarei aqui sempre que precisar. 🫶🏾❤️"
   },
   {
     "id": "silvana-8",
@@ -163,10 +177,12 @@
     "companions": [
       "Jesus"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-01T22:23:45.395Z",
+    "confirmedCompanions": [
+      "Jesus"
+    ],
+    "totalConfirmed": 2,
     "message": ""
   },
   {
@@ -179,10 +195,12 @@
     "companions": [
       "Sara"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-03T16:06:09.912Z",
+    "confirmedCompanions": [
+      "Sara"
+    ],
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -197,10 +215,14 @@
       "Isadora",
       "Israel"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-03T10:48:11.955Z",
+    "confirmedCompanions": [
+      "Guilherme",
+      "Isadora",
+      "Israel"
+    ],
+    "totalConfirmed": 4,
     "message": ""
   },
   {
@@ -213,10 +235,10 @@
     "companions": [
       "Bruno"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-05-01T20:41:29.002Z",
     "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -231,7 +253,7 @@
       "Chrystopher",
       "Chrystiano"
     ],
-    "confirmed": null,
+    "confirmed": false,
     "confirmedAt": null,
     "confirmedCompanions": [],
     "totalConfirmed": 0,
@@ -250,7 +272,10 @@
     ],
     "confirmed": true,
     "confirmedAt": "2026-04-28T00:42:50.888Z",
-    "confirmedCompanions": [],
+    "confirmedCompanions": [
+      "Bianca",
+      "Lucca"
+    ],
     "totalConfirmed": 1,
     "message": ""
   },
@@ -265,10 +290,13 @@
       "Marco",
       "Ryan"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-03T22:06:44.718Z",
+    "confirmedCompanions": [
+      "Marco",
+      "Ryan"
+    ],
+    "totalConfirmed": 3,
     "message": ""
   },
   {
@@ -329,10 +357,14 @@
       "Théo",
       "Maria"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-04T14:41:17.367Z",
+    "confirmedCompanions": [
+      "Fernanda",
+      "Théo",
+      "Maria"
+    ],
+    "totalConfirmed": 4,
     "message": ""
   },
   {
@@ -345,10 +377,12 @@
     "companions": [
       "Yuri"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-04T00:09:55.293Z",
+    "confirmedCompanions": [
+      "Yuri"
+    ],
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -364,10 +398,15 @@
       "Alice",
       "Nicolly"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-05T15:09:38.500Z",
+    "confirmedCompanions": [
+      "Vanessa",
+      "Kauan",
+      "Alice",
+      "Nicolly"
+    ],
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -380,11 +419,13 @@
     "companions": [
       "Leila"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T22:26:55.065Z",
+    "confirmedCompanions": [
+      "Leila"
+    ],
+    "totalConfirmed": 1,
+    "message": "Minha  princesinha  tio (avo) e tia te amamos   faremos  tudo  para  esta  seu lado no seu niver "
   },
   {
     "id": "ingrid-20",
@@ -396,11 +437,13 @@
     "companions": [
       "Junior"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
-    "message": ""
+    "confirmed": true,
+    "confirmedAt": "2026-04-28T12:38:42.265Z",
+    "confirmedCompanions": [
+      "Junior"
+    ],
+    "totalConfirmed": 2,
+    "message": "Feliz aniversário, Elise! Que papai do céu te abençoe!\nQue Ele cuide de cada passinho seu, te encha de alegria, de luz e de um amor que nunca acaba.\nQue você cresça sempre feliz, doce e cheia de vida.\nA titia te ama muito e vai estar sempre aqui por você.\nDeus te abençoe hoje e em todos os dias da sua vida."
   },
   {
     "id": "jacira-21",
@@ -433,9 +476,13 @@
       "Calebe"
     ],
     "confirmed": true,
-    "confirmedAt": "2026-04-28T01:31:06.764Z",
-    "confirmedCompanions": [],
-    "totalConfirmed": 1,
+    "confirmedAt": "2026-04-28T13:51:35.051Z",
+    "confirmedCompanions": [
+      "Junia",
+      "Thales",
+      "Calebe"
+    ],
+    "totalConfirmed": 4,
     "message": ""
   },
   {
@@ -446,10 +493,10 @@
     "childrenCount": 0,
     "companionCount": 0,
     "companions": [],
-    "confirmed": null,
-    "confirmedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-05-01T20:41:01.331Z",
     "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -476,10 +523,12 @@
     "companions": [
       "Beatriz"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-01T13:54:30.273Z",
+    "confirmedCompanions": [
+      "Beatriz"
+    ],
+    "totalConfirmed": 1,
     "message": ""
   },
   {
@@ -501,7 +550,7 @@
     "name": "Amanda",
     "group": "Família Mãe",
     "hasCompanions": true,
-    "childrenCount": 2,
+    "childrenCount": 1,
     "companionCount": 2,
     "companions": [
       "Guilherme",
@@ -545,10 +594,12 @@
     "companions": [
       "Wladimir"
     ],
-    "confirmed": null,
-    "confirmedAt": null,
-    "confirmedCompanions": [],
-    "totalConfirmed": 0,
+    "confirmed": true,
+    "confirmedAt": "2026-05-05T13:41:59.148Z",
+    "confirmedCompanions": [
+      "Wladimir"
+    ],
+    "totalConfirmed": 2,
     "message": ""
   },
   {
@@ -562,7 +613,80 @@
       "Ana",
       "Ana"
     ],
+    "confirmed": true,
+    "confirmedAt": "2026-05-03T22:06:56.669Z",
+    "confirmedCompanions": [
+      "Ana",
+      "Ana"
+    ],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "aline-611",
+    "name": "Aline",
+    "group": "Amigo",
+    "hasCompanions": true,
+    "companionCount": 3,
+    "childrenCount": 0,
+    "companions": [
+      "Breno",
+      "Izabell",
+      "Bernardo"
+    ],
     "confirmed": null,
+    "confirmedAt": null,
+    "confirmedCompanions": [],
+    "totalConfirmed": 0,
+    "message": ""
+  },
+  {
+    "id": "stefania-993",
+    "name": "Stefania",
+    "group": "Amigo",
+    "hasCompanions": true,
+    "companionCount": 1,
+    "childrenCount": 0,
+    "companions": [
+      "Uadison"
+    ],
+    "confirmed": true,
+    "confirmedAt": "2026-05-06T21:29:53.388Z",
+    "confirmedCompanions": [
+      "Uadison"
+    ],
+    "totalConfirmed": 1,
+    "message": ""
+  },
+  {
+    "id": "adalberto-756",
+    "name": "Adalberto",
+    "group": "Amigo",
+    "hasCompanions": true,
+    "companionCount": 2,
+    "childrenCount": 0,
+    "companions": [
+      "Elizabeth",
+      "Arthur"
+    ],
+    "confirmed": true,
+    "confirmedAt": "2026-05-05T15:40:45.704Z",
+    "confirmedCompanions": [
+      "Elizabeth",
+      "Arthur"
+    ],
+    "totalConfirmed": 2,
+    "message": "Elise, que as ricas bençãos celestiais recaiam sobre sua vida e que você cresça em graça e conhecimento. Desejamos tudo de mais lindo pra você, princesa! "
+  },
+  {
+    "id": "fabinho-841",
+    "name": "Fabinho",
+    "group": "Família Mãe",
+    "hasCompanions": false,
+    "companionCount": 0,
+    "childrenCount": 0,
+    "companions": [],
+    "confirmed": true,
     "confirmedAt": null,
     "confirmedCompanions": [],
     "totalConfirmed": 0,

@@ -5,7 +5,11 @@ export default function DashboardStats({ guests }: { guests: Guest[] }) {
     const pending = guests.filter(g => g.confirmed === null);
     const declined = guests.filter(g => g.confirmed === false && (!g.confirmedCompanions || g.confirmedCompanions.length === 0));
 
-    const totalConfirmedAdults = guests.reduce((acc: number, g) => acc + (g.confirmed === true ? 1 : 0) + (g.confirmedCompanions?.length || 0), 0);
+    const totalConfirmedAdults = guests.reduce((acc: number, g) => {
+        const mainConfirmed = g.confirmed === true ? 1 : 0;
+        const adultCompanions = Math.max(0, (g.confirmedCompanions?.length || 0) - (g.childrenCount || 0));
+        return acc + mainConfirmed + adultCompanions;
+    }, 0);
     const totalConfirmedChildren = confirmed.reduce((acc: number, g) => acc + (g.childrenCount || 0), 0);
 
     const stats = [
