@@ -2,6 +2,7 @@ import { getGuests, getGuestById } from '@/lib/kv';
 import EventInfo from '@/components/EventInfo';
 import GuestSearch from '@/components/GuestSearch';
 import GuestFormWrapper from '@/components/GuestFormWrapper';
+import Link from 'next/link';
 
 export default async function Home({
   searchParams,
@@ -56,8 +57,18 @@ export default async function Home({
       </div>
 
       {/* Aesthetic Footer */}
-      <footer className="mt-20 text-center text-gray-400 text-sm italic py-10">
-        Com amor, Papai e Mamãe! ❤️
+      <footer className="mt-20 text-center space-y-8 py-10">
+        <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500">
+          <Link
+            href="/galeria"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gold/10 hover:bg-gold/20 text-gold rounded-full border border-gold/30 transition-all hover:scale-105 active:scale-95"
+          >
+            ✨ Ver Galeria de Memórias
+          </Link>
+        </div>
+        <p className="text-gray-400 text-sm italic">
+          Com amor, Papai e Mamãe! ❤️
+        </p>
       </footer>
     </main>
   );
